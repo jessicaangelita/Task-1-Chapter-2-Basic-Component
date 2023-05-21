@@ -1,0 +1,43 @@
+/* CSS untuk tabel */
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* CSS untuk header kolom */
+.table-container th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* CSS untuk baris data */
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* CSS untuk kolom Action */
+.table-container .action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.table-container .action-buttons button {
+  margin-right: 5px;
+}
+
+/* CSS untuk tautan edit dan hapus */
+.table-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.table-container a:hover {
+  text-decoration: underline;
+}

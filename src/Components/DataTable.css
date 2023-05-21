@@ -1,0 +1,65 @@
+table {
+    width: auto;
+    box-shadow: 5px 10px 10px #888888;
+}
+
+thead {
+    background-color: #F8FAFC;
+}
+
+th {
+    text-align: center;
+}
+
+.popup-box {
+    background-color: yellow;
+    width: 8cm;
+    height: 8cm;
+    padding-top: 10px;
+    margin-top: 200px;
+
+}
+
+.popupImage {
+    width: 4cm;
+    margin-top: 20px;
+    margin-left: 2cm;
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+.popupButton {
+    margin-left: 2cm;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+.green-text {
+    color: #10B981;
+}
+
+.button-image {
+    width: 20px;
+    margin-top: 3px;
+}
+
+.button {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
